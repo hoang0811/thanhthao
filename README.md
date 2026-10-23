@@ -24,7 +24,8 @@ npm run dev
 
 3. In Cloudflare, open **Workers & Pages → Create application → Pages → Connect to Git** and select the GitHub repository.
 4. Set the build command to `npm run generate` and the build output directory to `.output/public`.
-5. Add the environment variable `NODE_VERSION` with value `22.21.0`, then save and deploy.
+5. Set the production branch to `master`.
+6. Add the environment variable `NODE_VERSION` with value `22.21.0`, then save and deploy.
 
 The generated site is static and can also be previewed locally with:
 
